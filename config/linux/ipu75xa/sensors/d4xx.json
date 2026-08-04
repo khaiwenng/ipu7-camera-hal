@@ -27,7 +27,126 @@
           {
             "id":  0 ,
             "configMode": "AUTO",
+            "output": [1280, 720],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 0", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH00.SER0.CAM0", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  1 ,
+            "configMode": "AUTO",
+            "output": [848, 480],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 0", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH00.SER0.CAM0", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  2 ,
+            "configMode": "AUTO",
+            "output": [848, 100],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 0", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH00.SER0.CAM0", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  3 ,
+            "configMode": "AUTO",
             "output": [640, 480],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 0", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH00.SER0.CAM0", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  4 ,
+            "configMode": "AUTO",
+            "output": [640, 360],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 0", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH00.SER0.CAM0", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  5 ,
+            "configMode": "AUTO",
+            "output": [480, 270],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 0", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH00.SER0.CAM0", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  6 ,
+            "configMode": "AUTO",
+            "output": [424, 240],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 0", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH00.SER0.CAM0", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  7 ,
+            "configMode": "AUTO",
+            "output": [256, 144],
             "format": "V4L2_PIX_FMT_UYVY",
             "videonode": [
               {
@@ -45,12 +164,33 @@
         "StaticMetadata": {
           "supportedStreamConfig": [
             {
-              "format": "V4L2_PIX_FMT_UYVY", "size": [640, 480], "field": 0, "mcId": 0
+              "format": "V4L2_PIX_FMT_UYVY", "size": [1280, 720], "field": 0, "mcId": 0
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [848, 480], "field": 0, "mcId": 1
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [848, 100], "field": 0, "mcId": 2
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [640, 480], "field": 0, "mcId": 3
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [640, 360], "field": 0, "mcId": 4
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [480, 270], "field": 0, "mcId": 5
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [424, 240], "field": 0, "mcId": 6
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [256, 144], "field": 0, "mcId": 7
             }
           ]
         },
 
-        "supportedISysSizes": [[640, 480]],
+        "supportedISysSizes": [[256, 144], [848, 100], [424, 240], [480, 270], [640, 360], [640, 480], [848, 480], [1280, 720]],
         "supportedISysFormat": ["V4L2_PIX_FMT_UYVY"],
         "enableAIQ": false,
         "usePSysProcessor": false
@@ -65,7 +205,109 @@
           {
             "id":  0 ,
             "configMode": "AUTO",
+            "output": [1280, 800],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 4", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH00.SER0.CAM0", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  1 ,
+            "configMode": "AUTO",
+            "output": [1280, 720],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 4", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH00.SER0.CAM0", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  2 ,
+            "configMode": "AUTO",
+            "output": [848, 480],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 4", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH00.SER0.CAM0", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  3 ,
+            "configMode": "AUTO",
             "output": [640, 480],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 4", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH00.SER0.CAM0", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  4 ,
+            "configMode": "AUTO",
+            "output": [640, 360],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 4", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH00.SER0.CAM0", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  5 ,
+            "configMode": "AUTO",
+            "output": [480, 270],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 4", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH00.SER0.CAM0", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  6 ,
+            "configMode": "AUTO",
+            "output": [424, 240],
             "format": "V4L2_PIX_FMT_YUYV",
             "videonode": [
               {
@@ -83,12 +325,30 @@
         "StaticMetadata": {
           "supportedStreamConfig": [
             {
-              "format": "V4L2_PIX_FMT_YUYV", "size": [640, 480], "field": 0, "mcId": 0
+              "format": "V4L2_PIX_FMT_YUYV", "size": [1280, 800], "field": 0, "mcId": 0
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [1280, 720], "field": 0, "mcId": 1
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [848, 480], "field": 0, "mcId": 2
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [640, 480], "field": 0, "mcId": 3
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [640, 360], "field": 0, "mcId": 4
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [480, 270], "field": 0, "mcId": 5
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [424, 240], "field": 0, "mcId": 6
             }
           ]
         },
 
-        "supportedISysSizes": [[640, 480]],
+        "supportedISysSizes": [[424, 240], [480, 270], [640, 360], [640, 480], [848, 480], [1280, 720], [1280, 800]],
         "supportedISysFormat": ["V4L2_PIX_FMT_YUYV"],
         "enableAIQ": false,
         "usePSysProcessor": false
@@ -97,13 +357,132 @@
         "name": "d4xx-2-depth",
         "description": "D4XX GMSL depth sensor on DES0 Link B",
         "vcCount": 4,
-        "vcId": 1,
+        "vcId": 0,
         "vcGroupId": 0,
         "MediaCtlConfig": [
           {
             "id":  0 ,
             "configMode": "AUTO",
+            "output": [1280, 720],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 1", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH01.SER1.CAM1", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  1 ,
+            "configMode": "AUTO",
+            "output": [848, 480],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 1", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH01.SER1.CAM1", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  2 ,
+            "configMode": "AUTO",
+            "output": [848, 100],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 1", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH01.SER1.CAM1", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  3 ,
+            "configMode": "AUTO",
             "output": [640, 480],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 1", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH01.SER1.CAM1", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  4 ,
+            "configMode": "AUTO",
+            "output": [640, 360],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 1", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH01.SER1.CAM1", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  5 ,
+            "configMode": "AUTO",
+            "output": [480, 270],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 1", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH01.SER1.CAM1", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  6 ,
+            "configMode": "AUTO",
+            "output": [424, 240],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 1", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH01.SER1.CAM1", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  7 ,
+            "configMode": "AUTO",
+            "output": [256, 144],
             "format": "V4L2_PIX_FMT_UYVY",
             "videonode": [
               {
@@ -121,12 +500,33 @@
         "StaticMetadata": {
           "supportedStreamConfig": [
             {
-              "format": "V4L2_PIX_FMT_UYVY", "size": [640, 480], "field": 0, "mcId": 0
+              "format": "V4L2_PIX_FMT_UYVY", "size": [1280, 720], "field": 0, "mcId": 0
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [848, 480], "field": 0, "mcId": 1
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [848, 100], "field": 0, "mcId": 2
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [640, 480], "field": 0, "mcId": 3
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [640, 360], "field": 0, "mcId": 4
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [480, 270], "field": 0, "mcId": 5
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [424, 240], "field": 0, "mcId": 6
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [256, 144], "field": 0, "mcId": 7
             }
           ]
         },
 
-        "supportedISysSizes": [[640, 480]],
+        "supportedISysSizes": [[256, 144], [848, 100], [424, 240], [480, 270], [640, 360], [640, 480], [848, 480], [1280, 720]],
         "supportedISysFormat": ["V4L2_PIX_FMT_UYVY"],
         "enableAIQ": false,
         "usePSysProcessor": false
@@ -141,7 +541,109 @@
           {
             "id":  0 ,
             "configMode": "AUTO",
+            "output": [1280, 800],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 5", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH01.SER1.CAM1", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  1 ,
+            "configMode": "AUTO",
+            "output": [1280, 720],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 5", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH01.SER1.CAM1", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  2 ,
+            "configMode": "AUTO",
+            "output": [848, 480],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 5", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH01.SER1.CAM1", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  3 ,
+            "configMode": "AUTO",
             "output": [640, 480],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 5", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH01.SER1.CAM1", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  4 ,
+            "configMode": "AUTO",
+            "output": [640, 360],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 5", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH01.SER1.CAM1", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  5 ,
+            "configMode": "AUTO",
+            "output": [480, 270],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 5", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH01.SER1.CAM1", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  6 ,
+            "configMode": "AUTO",
+            "output": [424, 240],
             "format": "V4L2_PIX_FMT_YUYV",
             "videonode": [
               {
@@ -159,12 +661,30 @@
         "StaticMetadata": {
           "supportedStreamConfig": [
             {
-              "format": "V4L2_PIX_FMT_YUYV", "size": [640, 480], "field": 0, "mcId": 0
+              "format": "V4L2_PIX_FMT_YUYV", "size": [1280, 800], "field": 0, "mcId": 0
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [1280, 720], "field": 0, "mcId": 1
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [848, 480], "field": 0, "mcId": 2
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [640, 480], "field": 0, "mcId": 3
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [640, 360], "field": 0, "mcId": 4
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [480, 270], "field": 0, "mcId": 5
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [424, 240], "field": 0, "mcId": 6
             }
           ]
         },
 
-        "supportedISysSizes": [[640, 480]],
+        "supportedISysSizes": [[424, 240], [480, 270], [640, 360], [640, 480], [848, 480], [1280, 720], [1280, 800]],
         "supportedISysFormat": ["V4L2_PIX_FMT_YUYV"],
         "enableAIQ": false,
         "usePSysProcessor": false
@@ -179,7 +699,126 @@
           {
             "id":  0 ,
             "configMode": "AUTO",
+            "output": [1280, 720],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 2", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH02.SER2.CAM2", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  1 ,
+            "configMode": "AUTO",
+            "output": [848, 480],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 2", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH02.SER2.CAM2", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  2 ,
+            "configMode": "AUTO",
+            "output": [848, 100],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 2", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH02.SER2.CAM2", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  3 ,
+            "configMode": "AUTO",
             "output": [640, 480],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 2", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH02.SER2.CAM2", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  4 ,
+            "configMode": "AUTO",
+            "output": [640, 360],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 2", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH02.SER2.CAM2", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  5 ,
+            "configMode": "AUTO",
+            "output": [480, 270],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 2", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH02.SER2.CAM2", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  6 ,
+            "configMode": "AUTO",
+            "output": [424, 240],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 2", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH02.SER2.CAM2", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  7 ,
+            "configMode": "AUTO",
+            "output": [256, 144],
             "format": "V4L2_PIX_FMT_UYVY",
             "videonode": [
               {
@@ -197,12 +836,33 @@
         "StaticMetadata": {
           "supportedStreamConfig": [
             {
-              "format": "V4L2_PIX_FMT_UYVY", "size": [640, 480], "field": 0, "mcId": 0
+              "format": "V4L2_PIX_FMT_UYVY", "size": [1280, 720], "field": 0, "mcId": 0
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [848, 480], "field": 0, "mcId": 1
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [848, 100], "field": 0, "mcId": 2
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [640, 480], "field": 0, "mcId": 3
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [640, 360], "field": 0, "mcId": 4
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [480, 270], "field": 0, "mcId": 5
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [424, 240], "field": 0, "mcId": 6
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [256, 144], "field": 0, "mcId": 7
             }
           ]
         },
 
-        "supportedISysSizes": [[640, 480]],
+        "supportedISysSizes": [[256, 144], [848, 100], [424, 240], [480, 270], [640, 360], [640, 480], [848, 480], [1280, 720]],
         "supportedISysFormat": ["V4L2_PIX_FMT_UYVY"],
         "enableAIQ": false,
         "usePSysProcessor": false
@@ -217,7 +877,109 @@
           {
             "id":  0 ,
             "configMode": "AUTO",
+            "output": [1280, 800],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 6", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH02.SER2.CAM2", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  1 ,
+            "configMode": "AUTO",
+            "output": [1280, 720],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 6", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH02.SER2.CAM2", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  2 ,
+            "configMode": "AUTO",
+            "output": [848, 480],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 6", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH02.SER2.CAM2", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  3 ,
+            "configMode": "AUTO",
             "output": [640, 480],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 6", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH02.SER2.CAM2", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  4 ,
+            "configMode": "AUTO",
+            "output": [640, 360],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 6", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH02.SER2.CAM2", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  5 ,
+            "configMode": "AUTO",
+            "output": [480, 270],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 6", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH02.SER2.CAM2", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  6 ,
+            "configMode": "AUTO",
+            "output": [424, 240],
             "format": "V4L2_PIX_FMT_YUYV",
             "videonode": [
               {
@@ -235,12 +997,30 @@
         "StaticMetadata": {
           "supportedStreamConfig": [
             {
-              "format": "V4L2_PIX_FMT_YUYV", "size": [640, 480], "field": 0, "mcId": 0
+              "format": "V4L2_PIX_FMT_YUYV", "size": [1280, 800], "field": 0, "mcId": 0
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [1280, 720], "field": 0, "mcId": 1
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [848, 480], "field": 0, "mcId": 2
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [640, 480], "field": 0, "mcId": 3
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [640, 360], "field": 0, "mcId": 4
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [480, 270], "field": 0, "mcId": 5
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [424, 240], "field": 0, "mcId": 6
             }
           ]
         },
 
-        "supportedISysSizes": [[640, 480]],
+        "supportedISysSizes": [[424, 240], [480, 270], [640, 360], [640, 480], [848, 480], [1280, 720], [1280, 800]],
         "supportedISysFormat": ["V4L2_PIX_FMT_YUYV"],
         "enableAIQ": false,
         "usePSysProcessor": false
@@ -255,7 +1035,126 @@
           {
             "id":  0 ,
             "configMode": "AUTO",
+            "output": [1280, 720],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 3", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH03.SER3.CAM3", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  1 ,
+            "configMode": "AUTO",
+            "output": [848, 480],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 3", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH03.SER3.CAM3", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  2 ,
+            "configMode": "AUTO",
+            "output": [848, 100],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 3", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH03.SER3.CAM3", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  3 ,
+            "configMode": "AUTO",
             "output": [640, 480],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 3", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH03.SER3.CAM3", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  4 ,
+            "configMode": "AUTO",
+            "output": [640, 360],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 3", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH03.SER3.CAM3", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  5 ,
+            "configMode": "AUTO",
+            "output": [480, 270],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 3", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH03.SER3.CAM3", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  6 ,
+            "configMode": "AUTO",
+            "output": [424, 240],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 3", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH03.SER3.CAM3", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  7 ,
+            "configMode": "AUTO",
+            "output": [256, 144],
             "format": "V4L2_PIX_FMT_UYVY",
             "videonode": [
               {
@@ -273,12 +1172,33 @@
         "StaticMetadata": {
           "supportedStreamConfig": [
             {
-              "format": "V4L2_PIX_FMT_UYVY", "size": [640, 480], "field": 0, "mcId": 0
+              "format": "V4L2_PIX_FMT_UYVY", "size": [1280, 720], "field": 0, "mcId": 0
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [848, 480], "field": 0, "mcId": 1
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [848, 100], "field": 0, "mcId": 2
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [640, 480], "field": 0, "mcId": 3
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [640, 360], "field": 0, "mcId": 4
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [480, 270], "field": 0, "mcId": 5
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [424, 240], "field": 0, "mcId": 6
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [256, 144], "field": 0, "mcId": 7
             }
           ]
         },
 
-        "supportedISysSizes": [[640, 480]],
+        "supportedISysSizes": [[256, 144], [848, 100], [424, 240], [480, 270], [640, 360], [640, 480], [848, 480], [1280, 720]],
         "supportedISysFormat": ["V4L2_PIX_FMT_UYVY"],
         "enableAIQ": false,
         "usePSysProcessor": false
@@ -293,7 +1213,109 @@
           {
             "id":  0 ,
             "configMode": "AUTO",
+            "output": [1280, 800],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 7", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH03.SER3.CAM3", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  1 ,
+            "configMode": "AUTO",
+            "output": [1280, 720],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 7", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH03.SER3.CAM3", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  2 ,
+            "configMode": "AUTO",
+            "output": [848, 480],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 7", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH03.SER3.CAM3", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  3 ,
+            "configMode": "AUTO",
             "output": [640, 480],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 7", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH03.SER3.CAM3", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  4 ,
+            "configMode": "AUTO",
+            "output": [640, 360],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 7", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH03.SER3.CAM3", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  5 ,
+            "configMode": "AUTO",
+            "output": [480, 270],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 7", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH03.SER3.CAM3", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  6 ,
+            "configMode": "AUTO",
+            "output": [424, 240],
             "format": "V4L2_PIX_FMT_YUYV",
             "videonode": [
               {
@@ -311,12 +1333,30 @@
         "StaticMetadata": {
           "supportedStreamConfig": [
             {
-              "format": "V4L2_PIX_FMT_YUYV", "size": [640, 480], "field": 0, "mcId": 0
+              "format": "V4L2_PIX_FMT_YUYV", "size": [1280, 800], "field": 0, "mcId": 0
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [1280, 720], "field": 0, "mcId": 1
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [848, 480], "field": 0, "mcId": 2
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [640, 480], "field": 0, "mcId": 3
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [640, 360], "field": 0, "mcId": 4
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [480, 270], "field": 0, "mcId": 5
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [424, 240], "field": 0, "mcId": 6
             }
           ]
         },
 
-        "supportedISysSizes": [[640, 480]],
+        "supportedISysSizes": [[424, 240], [480, 270], [640, 360], [640, 480], [848, 480], [1280, 720], [1280, 800]],
         "supportedISysFormat": ["V4L2_PIX_FMT_YUYV"],
         "enableAIQ": false,
         "usePSysProcessor": false
@@ -331,7 +1371,126 @@
           {
             "id":  0 ,
             "configMode": "AUTO",
+            "output": [1280, 720],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 16", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH00.SER0.CAM0", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  1 ,
+            "configMode": "AUTO",
+            "output": [848, 480],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 16", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH00.SER0.CAM0", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  2 ,
+            "configMode": "AUTO",
+            "output": [848, 100],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 16", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH00.SER0.CAM0", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  3 ,
+            "configMode": "AUTO",
             "output": [640, 480],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 16", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH00.SER0.CAM0", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  4 ,
+            "configMode": "AUTO",
+            "output": [640, 360],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 16", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH00.SER0.CAM0", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  5 ,
+            "configMode": "AUTO",
+            "output": [480, 270],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 16", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH00.SER0.CAM0", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  6 ,
+            "configMode": "AUTO",
+            "output": [424, 240],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 16", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH00.SER0.CAM0", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  7 ,
+            "configMode": "AUTO",
+            "output": [256, 144],
             "format": "V4L2_PIX_FMT_UYVY",
             "videonode": [
               {
@@ -349,11 +1508,32 @@
         "StaticMetadata": {
           "supportedStreamConfig": [
             {
-              "format": "V4L2_PIX_FMT_UYVY", "size": [640, 480], "field": 0, "mcId": 0
+              "format": "V4L2_PIX_FMT_UYVY", "size": [1280, 720], "field": 0, "mcId": 0
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [848, 480], "field": 0, "mcId": 1
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [848, 100], "field": 0, "mcId": 2
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [640, 480], "field": 0, "mcId": 3
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [640, 360], "field": 0, "mcId": 4
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [480, 270], "field": 0, "mcId": 5
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [424, 240], "field": 0, "mcId": 6
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [256, 144], "field": 0, "mcId": 7
             }
           ]
         },
-        "supportedISysSizes": [[640, 480]],
+        "supportedISysSizes": [[256, 144], [848, 100], [424, 240], [480, 270], [640, 360], [640, 480], [848, 480], [1280, 720]],
         "supportedISysFormat": ["V4L2_PIX_FMT_UYVY"],
         "enableAIQ": false,
         "usePSysProcessor": false
@@ -368,7 +1548,109 @@
           {
             "id":  0 ,
             "configMode": "AUTO",
+            "output": [1280, 800],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 20", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH00.SER0.CAM0", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  1 ,
+            "configMode": "AUTO",
+            "output": [1280, 720],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 20", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH00.SER0.CAM0", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  2 ,
+            "configMode": "AUTO",
+            "output": [848, 480],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 20", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH00.SER0.CAM0", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  3 ,
+            "configMode": "AUTO",
             "output": [640, 480],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 20", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH00.SER0.CAM0", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  4 ,
+            "configMode": "AUTO",
+            "output": [640, 360],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 20", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH00.SER0.CAM0", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  5 ,
+            "configMode": "AUTO",
+            "output": [480, 270],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 20", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH00.SER0.CAM0", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  6 ,
+            "configMode": "AUTO",
+            "output": [424, 240],
             "format": "V4L2_PIX_FMT_YUYV",
             "videonode": [
               {
@@ -386,11 +1668,29 @@
         "StaticMetadata": {
           "supportedStreamConfig": [
             {
-              "format": "V4L2_PIX_FMT_YUYV", "size": [640, 480], "field": 0, "mcId": 0
+              "format": "V4L2_PIX_FMT_YUYV", "size": [1280, 800], "field": 0, "mcId": 0
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [1280, 720], "field": 0, "mcId": 1
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [848, 480], "field": 0, "mcId": 2
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [640, 480], "field": 0, "mcId": 3
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [640, 360], "field": 0, "mcId": 4
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [480, 270], "field": 0, "mcId": 5
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [424, 240], "field": 0, "mcId": 6
             }
           ]
         },
-        "supportedISysSizes": [[640, 480]],
+        "supportedISysSizes": [[424, 240], [480, 270], [640, 360], [640, 480], [848, 480], [1280, 720], [1280, 800]],
         "supportedISysFormat": ["V4L2_PIX_FMT_YUYV"],
         "enableAIQ": false,
         "usePSysProcessor": false
@@ -405,7 +1705,126 @@
           {
             "id":  0 ,
             "configMode": "AUTO",
+            "output": [1280, 720],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 17", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH01.SER1.CAM1", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  1 ,
+            "configMode": "AUTO",
+            "output": [848, 480],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 17", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH01.SER1.CAM1", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  2 ,
+            "configMode": "AUTO",
+            "output": [848, 100],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 17", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH01.SER1.CAM1", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  3 ,
+            "configMode": "AUTO",
             "output": [640, 480],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 17", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH01.SER1.CAM1", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  4 ,
+            "configMode": "AUTO",
+            "output": [640, 360],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 17", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH01.SER1.CAM1", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  5 ,
+            "configMode": "AUTO",
+            "output": [480, 270],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 17", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH01.SER1.CAM1", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  6 ,
+            "configMode": "AUTO",
+            "output": [424, 240],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 17", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH01.SER1.CAM1", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  7 ,
+            "configMode": "AUTO",
+            "output": [256, 144],
             "format": "V4L2_PIX_FMT_UYVY",
             "videonode": [
               {
@@ -423,11 +1842,32 @@
         "StaticMetadata": {
           "supportedStreamConfig": [
             {
-              "format": "V4L2_PIX_FMT_UYVY", "size": [640, 480], "field": 0, "mcId": 0
+              "format": "V4L2_PIX_FMT_UYVY", "size": [1280, 720], "field": 0, "mcId": 0
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [848, 480], "field": 0, "mcId": 1
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [848, 100], "field": 0, "mcId": 2
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [640, 480], "field": 0, "mcId": 3
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [640, 360], "field": 0, "mcId": 4
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [480, 270], "field": 0, "mcId": 5
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [424, 240], "field": 0, "mcId": 6
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [256, 144], "field": 0, "mcId": 7
             }
           ]
         },
-        "supportedISysSizes": [[640, 480]],
+        "supportedISysSizes": [[256, 144], [848, 100], [424, 240], [480, 270], [640, 360], [640, 480], [848, 480], [1280, 720]],
         "supportedISysFormat": ["V4L2_PIX_FMT_UYVY"],
         "enableAIQ": false,
         "usePSysProcessor": false
@@ -442,7 +1882,109 @@
           {
             "id":  0 ,
             "configMode": "AUTO",
+            "output": [1280, 800],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 21", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH01.SER1.CAM1", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  1 ,
+            "configMode": "AUTO",
+            "output": [1280, 720],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 21", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH01.SER1.CAM1", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  2 ,
+            "configMode": "AUTO",
+            "output": [848, 480],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 21", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH01.SER1.CAM1", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  3 ,
+            "configMode": "AUTO",
             "output": [640, 480],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 21", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH01.SER1.CAM1", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  4 ,
+            "configMode": "AUTO",
+            "output": [640, 360],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 21", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH01.SER1.CAM1", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  5 ,
+            "configMode": "AUTO",
+            "output": [480, 270],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 21", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH01.SER1.CAM1", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  6 ,
+            "configMode": "AUTO",
+            "output": [424, 240],
             "format": "V4L2_PIX_FMT_YUYV",
             "videonode": [
               {
@@ -460,11 +2002,29 @@
         "StaticMetadata": {
           "supportedStreamConfig": [
             {
-              "format": "V4L2_PIX_FMT_YUYV", "size": [640, 480], "field": 0, "mcId": 0
+              "format": "V4L2_PIX_FMT_YUYV", "size": [1280, 800], "field": 0, "mcId": 0
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [1280, 720], "field": 0, "mcId": 1
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [848, 480], "field": 0, "mcId": 2
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [640, 480], "field": 0, "mcId": 3
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [640, 360], "field": 0, "mcId": 4
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [480, 270], "field": 0, "mcId": 5
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [424, 240], "field": 0, "mcId": 6
             }
           ]
         },
-        "supportedISysSizes": [[640, 480]],
+        "supportedISysSizes": [[424, 240], [480, 270], [640, 360], [640, 480], [848, 480], [1280, 720], [1280, 800]],
         "supportedISysFormat": ["V4L2_PIX_FMT_YUYV"],
         "enableAIQ": false,
         "usePSysProcessor": false
@@ -479,7 +2039,126 @@
           {
             "id":  0 ,
             "configMode": "AUTO",
+            "output": [1280, 720],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 18", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH02.SER2.CAM2", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  1 ,
+            "configMode": "AUTO",
+            "output": [848, 480],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 18", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH02.SER2.CAM2", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  2 ,
+            "configMode": "AUTO",
+            "output": [848, 100],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 18", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH02.SER2.CAM2", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  3 ,
+            "configMode": "AUTO",
             "output": [640, 480],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 18", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH02.SER2.CAM2", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  4 ,
+            "configMode": "AUTO",
+            "output": [640, 360],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 18", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH02.SER2.CAM2", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  5 ,
+            "configMode": "AUTO",
+            "output": [480, 270],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 18", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH02.SER2.CAM2", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  6 ,
+            "configMode": "AUTO",
+            "output": [424, 240],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 18", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH02.SER2.CAM2", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  7 ,
+            "configMode": "AUTO",
+            "output": [256, 144],
             "format": "V4L2_PIX_FMT_UYVY",
             "videonode": [
               {
@@ -497,11 +2176,32 @@
         "StaticMetadata": {
           "supportedStreamConfig": [
             {
-              "format": "V4L2_PIX_FMT_UYVY", "size": [640, 480], "field": 0, "mcId": 0
+              "format": "V4L2_PIX_FMT_UYVY", "size": [1280, 720], "field": 0, "mcId": 0
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [848, 480], "field": 0, "mcId": 1
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [848, 100], "field": 0, "mcId": 2
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [640, 480], "field": 0, "mcId": 3
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [640, 360], "field": 0, "mcId": 4
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [480, 270], "field": 0, "mcId": 5
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [424, 240], "field": 0, "mcId": 6
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [256, 144], "field": 0, "mcId": 7
             }
           ]
         },
-        "supportedISysSizes": [[640, 480]],
+        "supportedISysSizes": [[256, 144], [848, 100], [424, 240], [480, 270], [640, 360], [640, 480], [848, 480], [1280, 720]],
         "supportedISysFormat": ["V4L2_PIX_FMT_UYVY"],
         "enableAIQ": false,
         "usePSysProcessor": false
@@ -516,7 +2216,109 @@
           {
             "id":  0 ,
             "configMode": "AUTO",
+            "output": [1280, 800],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 22", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH02.SER2.CAM2", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  1 ,
+            "configMode": "AUTO",
+            "output": [1280, 720],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 22", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH02.SER2.CAM2", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  2 ,
+            "configMode": "AUTO",
+            "output": [848, 480],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 22", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH02.SER2.CAM2", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  3 ,
+            "configMode": "AUTO",
             "output": [640, 480],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 22", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH02.SER2.CAM2", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  4 ,
+            "configMode": "AUTO",
+            "output": [640, 360],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 22", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH02.SER2.CAM2", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  5 ,
+            "configMode": "AUTO",
+            "output": [480, 270],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 22", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH02.SER2.CAM2", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  6 ,
+            "configMode": "AUTO",
+            "output": [424, 240],
             "format": "V4L2_PIX_FMT_YUYV",
             "videonode": [
               {
@@ -534,11 +2336,29 @@
         "StaticMetadata": {
           "supportedStreamConfig": [
             {
-              "format": "V4L2_PIX_FMT_YUYV", "size": [640, 480], "field": 0, "mcId": 0
+              "format": "V4L2_PIX_FMT_YUYV", "size": [1280, 800], "field": 0, "mcId": 0
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [1280, 720], "field": 0, "mcId": 1
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [848, 480], "field": 0, "mcId": 2
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [640, 480], "field": 0, "mcId": 3
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [640, 360], "field": 0, "mcId": 4
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [480, 270], "field": 0, "mcId": 5
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [424, 240], "field": 0, "mcId": 6
             }
           ]
         },
-        "supportedISysSizes": [[640, 480]],
+        "supportedISysSizes": [[424, 240], [480, 270], [640, 360], [640, 480], [848, 480], [1280, 720], [1280, 800]],
         "supportedISysFormat": ["V4L2_PIX_FMT_YUYV"],
         "enableAIQ": false,
         "usePSysProcessor": false
@@ -554,7 +2374,126 @@
           {
             "id":  0 ,
             "configMode": "AUTO",
+            "output": [1280, 720],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 19", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH03.SER3.CAM3", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  1 ,
+            "configMode": "AUTO",
+            "output": [848, 480],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 19", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH03.SER3.CAM3", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  2 ,
+            "configMode": "AUTO",
+            "output": [848, 100],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 19", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH03.SER3.CAM3", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  3 ,
+            "configMode": "AUTO",
             "output": [640, 480],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 19", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH03.SER3.CAM3", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  4 ,
+            "configMode": "AUTO",
+            "output": [640, 360],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 19", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH03.SER3.CAM3", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  5 ,
+            "configMode": "AUTO",
+            "output": [480, 270],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 19", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH03.SER3.CAM3", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  6 ,
+            "configMode": "AUTO",
+            "output": [424, 240],
+            "format": "V4L2_PIX_FMT_UYVY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 19", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH03.SER3.CAM3", "subEntity": "D4XX depth", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  7 ,
+            "configMode": "AUTO",
+            "output": [256, 144],
             "format": "V4L2_PIX_FMT_UYVY",
             "videonode": [
               {
@@ -572,11 +2511,32 @@
         "StaticMetadata": {
           "supportedStreamConfig": [
             {
-              "format": "V4L2_PIX_FMT_UYVY", "size": [640, 480], "field": 0, "mcId": 0
+              "format": "V4L2_PIX_FMT_UYVY", "size": [1280, 720], "field": 0, "mcId": 0
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [848, 480], "field": 0, "mcId": 1
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [848, 100], "field": 0, "mcId": 2
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [640, 480], "field": 0, "mcId": 3
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [640, 360], "field": 0, "mcId": 4
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [480, 270], "field": 0, "mcId": 5
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [424, 240], "field": 0, "mcId": 6
+            },
+            {
+              "format": "V4L2_PIX_FMT_UYVY", "size": [256, 144], "field": 0, "mcId": 7
             }
           ]
         },
-        "supportedISysSizes": [[640, 480]],
+        "supportedISysSizes": [[256, 144], [848, 100], [424, 240], [480, 270], [640, 360], [640, 480], [848, 480], [1280, 720]],
         "supportedISysFormat": ["V4L2_PIX_FMT_UYVY"],
         "enableAIQ": false,
         "usePSysProcessor": false
@@ -591,7 +2551,109 @@
           {
             "id":  0 ,
             "configMode": "AUTO",
+            "output": [1280, 800],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 23", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH03.SER3.CAM3", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  1 ,
+            "configMode": "AUTO",
+            "output": [1280, 720],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 23", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH03.SER3.CAM3", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  2 ,
+            "configMode": "AUTO",
+            "output": [848, 480],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 23", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH03.SER3.CAM3", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  3 ,
+            "configMode": "AUTO",
             "output": [640, 480],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 23", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH03.SER3.CAM3", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  4 ,
+            "configMode": "AUTO",
+            "output": [640, 360],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 23", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH03.SER3.CAM3", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  5 ,
+            "configMode": "AUTO",
+            "output": [480, 270],
+            "format": "V4L2_PIX_FMT_YUYV",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 23", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 2", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES1.CH03.SER3.CAM3", "subEntity": "D4XX rgb", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          },
+          {
+            "id":  6 ,
+            "configMode": "AUTO",
+            "output": [424, 240],
             "format": "V4L2_PIX_FMT_YUYV",
             "videonode": [
               {
@@ -609,11 +2671,29 @@
         "StaticMetadata": {
           "supportedStreamConfig": [
             {
-              "format": "V4L2_PIX_FMT_YUYV", "size": [640, 480], "field": 0, "mcId": 0
+              "format": "V4L2_PIX_FMT_YUYV", "size": [1280, 800], "field": 0, "mcId": 0
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [1280, 720], "field": 0, "mcId": 1
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [848, 480], "field": 0, "mcId": 2
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [640, 480], "field": 0, "mcId": 3
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [640, 360], "field": 0, "mcId": 4
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [480, 270], "field": 0, "mcId": 5
+            },
+            {
+              "format": "V4L2_PIX_FMT_YUYV", "size": [424, 240], "field": 0, "mcId": 6
             }
           ]
         },
-        "supportedISysSizes": [[640, 480]],
+        "supportedISysSizes": [[424, 240], [480, 270], [640, 360], [640, 480], [848, 480], [1280, 720], [1280, 800]],
         "supportedISysFormat": ["V4L2_PIX_FMT_YUYV"],
         "enableAIQ": false,
         "usePSysProcessor": false
