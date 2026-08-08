@@ -512,6 +512,44 @@
         "usePSysProcessor": false
       },
       {
+        "name": "d4xx-1-imu",
+        "description": "D4XX GMSL IMU sensor on DES0 Link A",
+        "vcCount": 4,
+        "vcId": 0,
+        "vcGroupId": 0,
+        "MediaCtlConfig": [
+          {
+            "id":  0 ,
+            "configMode": "AUTO",
+            "output": [38, 1],
+            "format": "V4L2_PIX_FMT_GREY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 2", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH00.SER0.CAM0", "subEntity": "D4XX imu", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          }
+        ],
+        "StaticMetadata": {
+          "supportedStreamConfig": [
+            {
+              "format": "V4L2_PIX_FMT_GREY", "size": [38, 1], "field": 0, "mcId": 0
+            }
+          ]
+        },
+
+        "supportedISysSizes": [[38, 1]],
+        "supportedISysFormat": ["V4L2_PIX_FMT_GREY"],
+        "enableAIQ": false,
+        "usePSysProcessor": false
+      },
+      {
         "name": "d4xx-2-depth",
         "description": "D4XX GMSL depth sensor on DES0 Link B",
         "vcCount": 4,
@@ -1002,6 +1040,44 @@
 
         "supportedISysSizes": [[424, 240], [480, 270], [640, 360], [640, 480], [848, 480], [1280, 720], [1280, 800]],
         "supportedISysFormat": ["V4L2_PIX_FMT_GREY", "V4L2_PIX_FMT_BGR24"],
+        "enableAIQ": false,
+        "usePSysProcessor": false
+      },
+      {
+        "name": "d4xx-2-imu",
+        "description": "D4XX GMSL IMU sensor on DES0 Link B",
+        "vcCount": 4,
+        "vcId": 1,
+        "vcGroupId": 0,
+        "MediaCtlConfig": [
+          {
+            "id":  0 ,
+            "configMode": "AUTO",
+            "output": [38, 1],
+            "format": "V4L2_PIX_FMT_GREY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 3", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH01.SER1.CAM1", "subEntity": "D4XX imu", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          }
+        ],
+        "StaticMetadata": {
+          "supportedStreamConfig": [
+            {
+              "format": "V4L2_PIX_FMT_GREY", "size": [38, 1], "field": 0, "mcId": 0
+            }
+          ]
+        },
+
+        "supportedISysSizes": [[38, 1]],
+        "supportedISysFormat": ["V4L2_PIX_FMT_GREY"],
         "enableAIQ": false,
         "usePSysProcessor": false
       },
@@ -1500,6 +1576,44 @@
         "usePSysProcessor": false
       },
       {
+        "name": "d4xx-3-imu",
+        "description": "D4XX GMSL IMU sensor on DES0 Link C",
+        "vcCount": 4,
+        "vcId": 2,
+        "vcGroupId": 0,
+        "MediaCtlConfig": [
+          {
+            "id":  0 ,
+            "configMode": "AUTO",
+            "output": [38, 1],
+            "format": "V4L2_PIX_FMT_GREY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 0", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH02.SER2.CAM2", "subEntity": "D4XX imu", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          }
+        ],
+        "StaticMetadata": {
+          "supportedStreamConfig": [
+            {
+              "format": "V4L2_PIX_FMT_GREY", "size": [38, 1], "field": 0, "mcId": 0
+            }
+          ]
+        },
+
+        "supportedISysSizes": [[38, 1]],
+        "supportedISysFormat": ["V4L2_PIX_FMT_GREY"],
+        "enableAIQ": false,
+        "usePSysProcessor": false
+      },
+      {
         "name": "d4xx-4-depth",
         "description": "D4XX GMSL depth sensor on DES0 Link D",
         "vcCount": 4,
@@ -1990,6 +2104,44 @@
 
         "supportedISysSizes": [[424, 240], [480, 270], [640, 360], [640, 480], [848, 480], [1280, 720], [1280, 800]],
         "supportedISysFormat": ["V4L2_PIX_FMT_GREY", "V4L2_PIX_FMT_BGR24"],
+        "enableAIQ": false,
+        "usePSysProcessor": false
+      },
+      {
+        "name": "d4xx-4-imu",
+        "description": "D4XX GMSL IMU sensor on DES0 Link D",
+        "vcCount": 4,
+        "vcId": 3,
+        "vcGroupId": 0,
+        "MediaCtlConfig": [
+          {
+            "id":  0 ,
+            "configMode": "AUTO",
+            "output": [38, 1],
+            "format": "V4L2_PIX_FMT_GREY",
+            "videonode": [
+              {
+                "name": "Intel IPU7 ISYS Capture 1", "videoNodeType": "VIDEO_GENERIC"
+              },
+              {
+                "name": "Intel IPU7 CSI2 0", "videoNodeType": "VIDEO_ISYS_RECEIVER"
+              },
+              {
+                "acpiName": "\\_SB_.PC00.DES0.CH03.SER3.CAM3", "subEntity": "D4XX imu", "videoNodeType": "VIDEO_PIXEL_ARRAY"
+              }
+            ]
+          }
+        ],
+        "StaticMetadata": {
+          "supportedStreamConfig": [
+            {
+              "format": "V4L2_PIX_FMT_GREY", "size": [38, 1], "field": 0, "mcId": 0
+            }
+          ]
+        },
+
+        "supportedISysSizes": [[38, 1]],
+        "supportedISysFormat": ["V4L2_PIX_FMT_GREY"],
         "enableAIQ": false,
         "usePSysProcessor": false
       },
